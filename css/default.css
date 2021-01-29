@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+*{outline:none;}
+body,h1,h2,h3,h4,h5,h6,p{margin:0;}
+body{
+    min-width:1200px;
+    font-family:'NanumBarunGothic',serif;
+}
+h1,h2,h3,h4,h5,h6{font-family:'Frank Ruhl Libre','NanumBarunGothic',serif;}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:#222;
+}
+
+.inner{
+    width:1200px;
+    margin:0 auto;
+}
+.cf::after{
+    content:"";
+    display:block;
+    clear:both;
+}

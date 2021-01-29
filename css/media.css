@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+/*웹 X*/
+.con03BoxM{display:none;}
+
+@media screen and (max-width:768px){
+    /*웹공통*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    
+    /*모바일 X*/
+    .gnb,.util span,.mainCon02 .imgTit,.mainCon02 .moreBtn,.mainCon04,.con03BoxW{display:none;}
+    /*모바일 O*/
+    .con03BoxM{display:block;}
+    
+    /*header*/
+    #header{
+        padding:10px;
+    }
+    .logo{
+        width:30px;
+    }
+    .logo img{
+        width:100%;
+    }
+    .util{
+        margin:0;
+    }
+    #header li{
+        padding:0;
+        padding-left:10px;
+    }
+
+    /*mainSlider*/
+    .mainSlider{
+        width:100%;
+        height:430px;
+        overflow:hidden;
+        padding-bottom:30px;
+    }
+    .mainSlider>img{
+        width:250%;
+        position:absolute;
+        top:0;
+        right:-50px;
+        z-index:-1;
+    }
+    .mainSlider .sliderImg{
+        width:120px;
+        bottom:0;
+        left:auto;
+        right:10px;;
+        margin:0;
+        z-index:1;
+    }
+    .sliderImg img{
+        width:100%;
+    }
+    .mainSlider .sliderTit{
+        position:static;
+        margin:0;
+        padding-top:330px;
+        padding-left:10px;
+        font-size:12px;
+        line-height:18px;
+    }
+    .sliderTit h2{
+        margin-bottom:10px;
+        font-size:30px;
+        line-height:30px;
+    }
+    
+    /*mainCon01*/
+    .mainCon01{
+        background-size:80%;
+        margin-top:-30px;
+        padding-bottom:300px;
+        position:relative;
+    }
+    .mainCon01>div{
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    .con01Box01{
+    }
+    .mainCon01 .con01Box02{
+        width:80%;
+        position:absolute;
+        top:240px;
+        left:20%;
+        font-size:12px;
+        padding:30px 20px;;
+    }
+    .con01Box02 h4::before,.con01Box02 h4::after{display:none;}
+    .con01Box02 h4{
+        font-size:16px;
+        line-height:26px;
+        margin:0;
+        margin-bottom:20px;
+    }
+    .con01Box02 p::before{
+        width:30%;
+    }
+    .con01Box03{
+    }
+    .con01Box03 h3{
+        margin:0;
+        margin-top:140px;
+        text-align:left;
+        font-size:34px;
+    }
+    .con01Box03 p{
+        position:absolute;
+        top:760px;
+        right:10px;
+        line-height:24px;
+        font-size:14px;
+    }
+    .con01Box05 h3{
+        margin:0;
+        margin-bottom:10px;
+        font-size:34px;
+    }
+    .con01Box05 p{
+        font-size:14px;
+        margin-top:3
+    }
+    /*mainCon02*/
+    .mainCon02{}
+    .mainCon02 .con02Tit{
+        font-size:12px;
+        margin:60px 0 30px;
+    }
+    .con02Tit h4{
+        font-size:30px;
+    }
+    .mainCon02 li img{
+        width:100%;
+    }
+    .con02Slide li{
+        padding:30px 0;
+    }
+    .swiper-slide-active img{
+        padding:0;
+    }
+    .mainCon02 .swiper-slide-next{
+        padding:30px 0;
+    }
+    .swiper-pagination-bullet-active{
+        width:120px;
+    }
+    .swiper-pagination-bullet-active::after{
+        width:80px;
+        padding:0
+    }
+    /*mainCon03*/
+    .mainCon03{
+        background:none;
+    }
+    .mainCon03>div{
+        width:100%;
+        padding:20px 0;
+    }
+    .con03Box02{
+        background-size:50%;
+    }
+    .mainCon03 .con03Box04{
+        padding:0;
+    }
+    .con03BoxM{background:#f2f2f2;}
+    .con03TxtBox{
+        padding:0;
+        text-align:center;
+    }
+    .con03TxtBox h4{
+        margin:0;
+        font-size:18px;
+    }
+    .con03TxtBox h3{
+        font-size:30px;
+        margin:0;
+        margin-bottom:20px;
+    }
+    .con03TxtBox p{
+        font-size:13px;
+    }
+    .mainCon03 .moreBtn{
+        margin-top:40px;
+        margin-bottom:20px;
+    }
+    /*footer*/
+    #footer{
+        padding-left:10px;
+        padding-right:10px;
+        overflow:hidden;
+        font-size:12px;
+    }
+    #footer .inner{
+        background-size:20%;
+        
+    }
+    .fMenuL li{
+        margin-right:10px;
+    }
+    #footer li:last-child{
+        margin:0;
+    }
+    .fMenuR{
+        float:left;
+        margin-top:10px;
+    }
+    .fMenuR li{
+        margin-left:0px;
+        margin-right:10px;
+    }
+    .fInfo{
+        font-size:11px;
+        line-height:20px;
+        margin:20px 0;
+    }
+    .fCall{
+        font-size:11px;
+        line-height:20px;
+    }
+    .fCall h5{
+        display:block;
+        margin:0;
+        margin-bottom:10px;
+    }
+}

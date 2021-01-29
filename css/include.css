@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/*header*/
+#header{
+    position:relative;
+    padding:30px;
+    line-height:34px;
+    border-bottom:1px solid #d9d9d9;
+}
+
+#header li{
+    float:left;
+    padding-left:26px;
+}
+#header a{
+    display:block;
+    width:100%;
+}
+.logo{
+    float:left;
+}
+.logo a{}
+.logo a img{}
+
+.gnb{
+    position:absolute;
+    right:20%;
+}
+.gnb li{
+    padding-left:40px;
+}
+.gnb li a{}
+.gnb li img{}
+
+.util{
+    float:right;
+    margin-top:6px;
+    margin-right:60px;
+}
+.util li{
+}
+.util li a{}
+.util li img{
+    display:block;
+}
+.util li span{
+    position:absolute;
+    margin-left:-7px;
+    color:#fff;
+    font-size:12px;
+    transition:color 0.6s linear;
+}
+.util li .utilIco02{
+    margin-left:-15px;
+}
+.util li .utilIco03{
+    margin-left:-10px;
+}
+.util li .utilIco04{
+    margin-left:-4px;
+}
+.util li:hover span{
+    color:#222;
+}
+
+/*footer*/
+#footer{
+    background:#333;
+    padding-top:40px;
+    padding-bottom:40px;
+    color:#fff;
+    font-weight:200;
+}
+#footer .inner{
+    background:url(../images/common/fLogo.png) no-repeat right bottom;
+}
+#footer a{color:#fff;}
+.fMenu{}
+.fMenuL{float:left;}
+.fMenuL li{
+    float:left;
+    margin-right:30px;
+    font-weight:400;
+}
+
+.fMenuR{float:right;}
+.fMenuR li{
+    float:left;
+    margin-left:20px;
+    font-weight:400;
+}
+
+.fInfo{
+    line-height:30px;
+    margin:40px 0;
+}
+.fInfo span{
+    display:block;
+}
+
+.fCall{
+    line-height:30px;
+    margin-bottom:30px;
+}
+.fCall h5{
+    display:inline-block;
+    margin-right:20px;
+    vertical-align:middle;
+    font-family:'NotoSans',sans-serif;
+    font-weight:200;
+    font-size:22px;
+}
+.fCall span{
+    vertical-align:middle;
+}
+#footer ul li::after{
+    content:"";
+    display:block;
+    width:0;
+    height:1px;
+    background:#fff;
+    transition:width 0.5s linear;
+    
+}
+#footer ul li:hover::after{
+    font-weight:700;
+    width:100%;
+}
