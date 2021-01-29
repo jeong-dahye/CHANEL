@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*웹 X*/
-.con03BoxM{display:none;}
+.con03BoxM,.con01Box04Txt{display:none;}
 
 @media screen and (max-width:768px){
     /*웹공통*/
@@ -10,9 +10,9 @@
     
     
     /*모바일 X*/
-    .gnb,.util span,.mainCon02 .imgTit,.mainCon02 .moreBtn,.mainCon04,.con03BoxW{display:none;}
+    .gnb,.util span,.mainCon02 .imgTit,.mainCon02 .moreBtn,.mainCon04,.con03BoxW,.con01Box03 p{display:none;}
     /*모바일 O*/
-    .con03BoxM{display:block;}
+    .con03BoxM,.con01Box04Txt,.con01Box04Txt p{display:block;}
     
     /*header*/
     #header{
@@ -75,7 +75,7 @@
     .mainCon01{
         background-size:80%;
         margin-top:-30px;
-        padding-bottom:300px;
+        padding-bottom:320px;
         position:relative;
     }
     .mainCon01>div{
@@ -103,27 +103,31 @@
     .con01Box02 p::before{
         width:30%;
     }
-    .con01Box03{
-    }
     .con01Box03 h3{
         margin:0;
         margin-top:140px;
         text-align:left;
         font-size:34px;
     }
-    .con01Box03 p{
-        position:absolute;
-        top:760px;
-        right:10px;
-        line-height:24px;
+    .con01Box04{}
+    .con01Box04Txt{
+        padding:0;
+        padding-right:10px;
+        margin-top:10px;
+        line-height:20px;
         font-size:14px;
+    }
+    .mainCon01 .con01Box05{
+        margin-top:80px;
     }
     .con01Box05 h3{
         margin:0;
+        margin-left:10px;
         margin-bottom:10px;
         font-size:34px;
     }
     .con01Box05 p{
+        margin-left:10px;
         font-size:14px;
         margin-top:3
     }
