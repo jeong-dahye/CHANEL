@@ -3,10 +3,13 @@
 /*mainSlider*/
 .mainSlider{
     position:relative;
+    height:917px;
 }
 .mainSlider>img{
-    width:100%;
-    overflow:hidden;
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+    
 }
 .mainSlider>div{
     position:absolute;

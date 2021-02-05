@@ -43,6 +43,7 @@
         width:250%;
         position:absolute;
         top:0;
+        left:auto;
         right:-50px;
         z-index:-1;
     }
